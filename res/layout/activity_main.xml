@@ -25,4 +25,19 @@
             android:layout_height="wrap_content"
             android:text="GsonRequest"
             android:id="@+id/button2" android:layout_below="@+id/button" android:layout_alignLeft="@+id/button"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageRequest"
+            android:id="@+id/button3" android:layout_below="@+id/button2" android:layout_alignParentLeft="true"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_below="@+id/button3" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageLoader"
+            android:id="@+id/button4" android:layout_above="@+id/imageView"
+            android:layout_toRightOf="@+id/button3"/>
 </RelativeLayout>
